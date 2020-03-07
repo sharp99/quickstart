@@ -17,13 +17,13 @@ variable "aws_secret_key" {
 variable "aws_region" {
   type        = string
   description = "AWS region used for all resources"
-  default     = "us-east-1"
+  default     = "us-west-2"
 }
 
 variable "prefix" {
   type        = string
   description = "Prefix added to names of all resources"
-  default     = "quickstart"
+  default     = "rancher"
 }
 
 variable "instance_type" {
